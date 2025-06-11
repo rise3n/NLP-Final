@@ -62,7 +62,9 @@ def assign_priority(row,max_civ,max_death,max_pot):
 #priority generation, 1 to 5, 1 is highest priority and 5 is lowest 
 def priorityGeneration():
     file = pd.read_excel(".\data\processed_metadata.xlsx", sheet_name='911_metadata')
-    newfile = file.drop(columns=['link', 'title' ,'date', 'description','file_name'])
+    newfile = file.drop(columns=['link', 'title' ,'date', 'description'])
+    newfile = newfile.drop(newfile[newfile["type"] == "Unknown"].index)
+    newfile.reset_index(drop=True, inplace=True)
     Priority = []
     max_civ = newfile['civilian_initiated'].max()
     max_death = newfile['deaths'].max()
