@@ -1,0 +1,45 @@
+  7%|███████▌                                                                                                   | 5/71 [01:39<21:49, 19.84s/it]
+Traceback (most recent call last):
+  File "d:\study\AI539 NLP\Final\train.py", line 184, in <module>
+    main()
+  File "d:\study\AI539 NLP\Final\train.py", line 163, in main
+    for batch in tqdm(dataloader):
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "d:\study\AI539 NLP\Final\train.py", line 134, in <lambda>
+    collate_fn=lambda batch: collate_fn(batch, processor, encoder)
+  File "d:\study\AI539 NLP\Final\train.py", line 65, in collate_fn
+    output = encoder(input_values, attention_mask=attention_mask)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\transformers\models\wav2vec2\modeling_wav2vec2.py", line 1807, in forward
+    extract_features = self.feature_extractor(input_values)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\transformers\models\wav2vec2\modeling_wav2vec2.py", line 463, in forward
+    hidden_states = conv_layer(hidden_states)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\transformers\models\wav2vec2\modeling_wav2vec2.py", line 310, in forward
+    hidden_states = self.conv(hidden_states)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\conv.py", line 375, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "c:\ProgramData\anaconda3\envs\fairseq\lib\site-packages\torch\nn\modules\conv.py", line 370, in _conv_forward
+    return F.conv1d(
+RuntimeError: Calculated padded input size per channel: (1). Kernel size: (2). Kernel size can't be greater than actual input size

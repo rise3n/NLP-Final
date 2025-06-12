@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "d:\study\AI539 NLP\Final\train.py", line 184, in <module>
+    main()
+  File "d:\study\AI539 NLP\Final\train.py", line 162, in main
+    for epoch in config["max_epoch"]:
+TypeError: 'int' object is not iterable

@@ -1,0 +1,43 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.10.16",
+  "startedAt":  "2025-06-12T04:29:22.717377Z",
+  "program":  "d:\\study\\AI539 NLP\\Final\\train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/rise3n/NLP-Final",
+    "commit":  "f6f83d45bd90656a0e7546945bf1ec84139ee971"
+  },
+  "email":  "zhuhon94@gmail.com",
+  "root":  "D:\\study\\AI539 NLP\\Final",
+  "host":  "hongyuanStation",
+  "executable":  "c:\\ProgramData\\anaconda3\\envs\\fairseq\\python.exe",
+  "codePathLocal":  "train.py",
+  "cpu_count":  14,
+  "cpu_count_logical":  20,
+  "gpu":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "234075713536",
+      "used":  "127040249856"
+    }
+  },
+  "memory":  {
+    "total":  "16849256448"
+  },
+  "cpu":  {
+    "count":  14,
+    "countLogical":  20
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal":  "8585740288",
+      "cudaCores":  3072,
+      "architecture":  "Ada",
+      "uuid":  "GPU-fb0d77e8-4591-04da-3acf-edba0a78d5ed"
+    }
+  ],
+  "cudaVersion":  "12.8"
+}

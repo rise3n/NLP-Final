@@ -1,0 +1,46 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m: []
+        python_version: 3.10.16
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+            "3":
+                - 13
+                - 16
+                - 55
+                - 61
+            "4": 3.10.16
+            "5": 0.20.1
+            "6": 4.51.3
+            "8":
+                - 3
+            "12": 0.20.1
+            "13": windows-amd64
+bs:
+    value: 10
+input_dim_ct:
+    value: 768
+input_dim_z:
+    value: 512
+l2reg:
+    value: 1e-07
+lr:
+    value: 0.0001
+max_epoch:
+    value: 20
+n_layers:
+    value: 8

@@ -1,0 +1,7 @@
+{"time":"2025-06-11T21:37:28.7199666-07:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"D:\\study\\AI539 NLP\\Final\\wandb\\run-20250611_213728-ksei7eng\\logs\\debug-core.log"}
+{"time":"2025-06-11T21:37:29.0275131-07:00","level":"INFO","msg":"stream: created new stream","id":"ksei7eng"}
+{"time":"2025-06-11T21:37:29.0275131-07:00","level":"INFO","msg":"stream: started","id":"ksei7eng"}
+{"time":"2025-06-11T21:37:29.0275131-07:00","level":"INFO","msg":"sender: started","stream_id":"ksei7eng"}
+{"time":"2025-06-11T21:37:29.0275131-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ksei7eng"}
+{"time":"2025-06-11T21:37:29.0275131-07:00","level":"INFO","msg":"handler: started","stream_id":"ksei7eng"}
+{"time":"2025-06-11T21:37:29.277455-07:00","level":"INFO","msg":"Starting system monitor"}
